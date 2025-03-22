@@ -21,7 +21,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    height: 100%; /* add this to make the background color cover the entire nav section */
+    height: 100%; 
   }
   
   nav img {
@@ -123,7 +123,7 @@ nav{
     margin: 20px auto; 
     max-width: 1200px;
     display: flex;
-     justify-content: space-between; */
+     justify-content: space-between; 
     align-items: flex-start;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -168,6 +168,7 @@ nav{
 .footer-container{
   background-color: beige;
   padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 .footer-logo img{
@@ -238,6 +239,14 @@ nav li {
     margin-right: 20px;
 }
 
+.exhibition-container{
+  background-color: #89A3B0;
+  text-align: center;
+  padding: 10px 15px;
+  max-width: 1200px;
+  margin: 20px 20px;
+ }
+
 .menu-toggle {
     display: none;
 }
@@ -265,6 +274,69 @@ h1 {
 
 .exhibition-description {
   font-size: 1em;
+}
+
+.footer-container{
+  background-color: beige;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.footer-logo img{
+  height: 50px;
+  float: left;
+  border-radius: 50%;
+}
+.footer-title{
+ display: flex;
+ align-items: center;
+}
+
+.footer-social img{
+  width: 25px;
+  height: 25px;
+  margin: 0 10px;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 26%;
+  /* padding-left: 20px; */
+}
+.footer-links ul{
+  list-style: none;
+  padding: 0;
+  margin-left: 7%; 
+  
+
+}
+
+.footer-links li{
+  display: block;
+   margin-bottom: 5px; 
+
+ 
+}
+.footer-links .title{
+  margin-bottom: 10px;
+  color: #3f3f3f;
+}
+.footer-links a{
+  text-decoration: none;
+  color: #333;
+} 
+
+.footer-links a:hover{
+  color: #5ea0cc;
+}
+
+.footer-copyright p{
+ display: flex;
+ justify-content: flex-end;
+ margin-right: 2%;
+ font-size: small;
 }
 }
 
